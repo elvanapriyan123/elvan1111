@@ -10,10 +10,10 @@
 <body>
     <h1>Materi Pemrograman PHP</h1>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-        <label for="material">Pilih Materi</label><br>
-        <input type="number" id="material" name="material" min="1" max="4" required><label>[1][2][3][4]</label><br>
-        <label for="materi1">[1] Penggunaan IF</label><br>
-        <label for="materi2">[2] Penggunaan SWITCH...CASE</label><br>
+        <label for="material">Pilih Materi : </label><br>
+        <input type="number" id="material" name="material" min="1" max="4" required>
+        <br><label for="materi1">[1] Penggunaan IF</label><br>
+        <label for="materi2">[2] Penggunaan SWITCH CASE</label><br>
         <label for="materi3">[3] Penggunaan LOOPING</label><br>
         <label for="materi4">[4] Penggunaan ARRAY</label><br><br>
         <input type="submit" value="Kirim">
